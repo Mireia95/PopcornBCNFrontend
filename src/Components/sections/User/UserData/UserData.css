@@ -1,0 +1,24 @@
+.userData {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.userData > .deleteUser > .deleteButt {
+  font-size: 15px;
+  padding: 15px 20px;
+  width: fit-content;
+}
+
+.userData > .userForm,
+.editPass {
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--PC-colorBGLight);
+}
+
+.userData > .deleteUser > h3,
+.editPass > h3 {
+  margin-bottom: 20px;
+}

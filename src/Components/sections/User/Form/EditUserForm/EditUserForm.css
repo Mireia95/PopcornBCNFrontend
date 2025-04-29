@@ -1,0 +1,23 @@
+.userForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.userForm > h3 {
+  margin-bottom: 30px;
+}
+
+.userForm > form,
+.editPass > form {
+  width: 400px;
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.userData .divButtons > button {
+  margin-top: 20px;
+  margin-right: 0;
+}

@@ -1,0 +1,47 @@
+#menuStart {
+  height: 100svh;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+
+.divMenu {
+  height: 90%;
+}
+
+.menuStart {
+  flex-direction: column;
+  gap: 20px;
+  width: 350px;
+  height: 400px;
+  margin: 50px;
+  margin-top: 200px;
+  border-radius: 15px;
+  font-size: 30px;
+  color: var(--PC-colorBGDark);
+  border: 2px solid white;
+  background-color: var(--PC-colorBGLight-alpha);
+  font-weight: 600;
+  transition: all 0.5s;
+}
+.menuStart:first-of-type:hover {
+  transform: scale(1.05) rotate(-3deg);
+  background-color: var(--PC-colorSecondary-alpha);
+}
+.menuStart:last-of-type:hover {
+  transform: scale(1.05) rotate(3deg);
+  background-color: var(--PC-colorSecondary-alpha);
+}
+.menuStart > img {
+  width: 150px;
+}
+
+.userStart {
+  background: var(--PC-colorBGDark);
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  width: 100%;
+  height: 10%;
+  gap: 30px;
+}

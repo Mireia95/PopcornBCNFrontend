@@ -1,0 +1,25 @@
+.commentContainer > button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.commentUser {
+  gap: 10px;
+  justify-content: flex-start;
+  /* NO pilla justify content. Buscar #id padre y poner #id > .commentUser */
+  font-size: 14px;
+}
+.commentUser > img {
+  border-radius: 50%;
+  width: 30px;
+}
+
+.star {
+  color: grey;
+  cursor: pointer;
+}
+
+.divStarsRating {
+  user-select: none;
+}

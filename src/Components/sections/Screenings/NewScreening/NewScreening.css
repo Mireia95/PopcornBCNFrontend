@@ -1,0 +1,28 @@
+.addScreening {
+  border: 2px solid var(--PC-colorTertiary);
+  border-radius: 10px;
+  width: 300px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: var(--PC-colorBGLight);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.addScreening > img {
+  width: 50px;
+}
+
+.addScreening > p {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--PC-colorTerciary);
+}
+
+.addScreening:hover {
+  background-color: var(--PC-colorLight);
+}

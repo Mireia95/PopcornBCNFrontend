@@ -1,0 +1,50 @@
+#loginUser {
+  height: fit-content;
+  position: relative;
+}
+
+.scrollUp {
+  position: absolute;
+  right: 50px;
+  bottom: 100px;
+}
+
+#LoginRegisterStart {
+  background-color: var(--PC-colorPrimary);
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+  color: var(--PC-colorLight);
+}
+
+#LoginRegisterStart > h2 {
+  margin-bottom: var(--PC-margin-xs);
+}
+
+#LoginRegisterStart > form {
+  width: 80%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font-weight: 500;
+}
+
+#LoginRegisterStart > form > div {
+  width: 100%;
+}
+
+.changeForm {
+  width: 100%;
+  height: 50px;
+
+  gap: 10px;
+}
+
+.changeForm > a {
+  font-weight: 600;
+  color: var(--PC-colorLight);
+  text-decoration: underline;
+}

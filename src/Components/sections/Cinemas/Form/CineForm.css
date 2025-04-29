@@ -1,0 +1,8 @@
+.cineForm input[name='link'],
+.cineForm input[name='address'] {
+  width: 350px;
+}
+
+.cineForm {
+  width: 500px;
+}

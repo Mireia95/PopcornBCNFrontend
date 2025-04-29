@@ -1,0 +1,36 @@
+.adminOptions > .adminOption {
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: transparent;
+  border: 1px solid var(--PC-colorBGLight);
+  width: 400px;
+  padding: 30px 40px 20px 40px;
+  margin: 20px;
+  gap: var(--PC-gap-s);
+  border-radius: 10px;
+  color: var(--PC-colorLight);
+  transition: all 0.3s;
+}
+
+.adminOption:hover {
+  transform: scale(1.05);
+  background-color: var(--PC-colorMidDark);
+}
+
+.adminOption > h3 {
+  font-size: 18px;
+}
+
+.adminOption > p {
+  font-size: 14px;
+  font-weight: 200;
+  margin-bottom: var(--PC-margin-xs);
+}
+
+.adminOption > button {
+  width: 100%;
+  background-color: var(--PC-colorLight);
+  color: var(--PC-colorMidDark);
+  padding: 10px 15px;
+  border-radius: 20px;
+}

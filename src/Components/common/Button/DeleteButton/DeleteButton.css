@@ -1,0 +1,13 @@
+.deleteButt {
+  background-color: var(--PC-colorDeleteUserBG);
+  color: var(--PC-colorDeleteUser);
+  gap: 10px;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+.deleteButt > img {
+  width: 16px;
+}

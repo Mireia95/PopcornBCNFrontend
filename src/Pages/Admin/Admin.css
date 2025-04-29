@@ -1,0 +1,11 @@
+#admin {
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.adminOptions {
+  margin-top: var(--PC-margin-m);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

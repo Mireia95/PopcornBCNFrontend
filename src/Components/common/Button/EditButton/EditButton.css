@@ -1,0 +1,8 @@
+.editButt {
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+.editButt > img {
+  width: 16px;
+}

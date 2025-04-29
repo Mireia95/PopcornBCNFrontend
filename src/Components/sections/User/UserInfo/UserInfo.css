@@ -1,0 +1,35 @@
+.divUser {
+  gap: 50px;
+  padding-bottom: 80px;
+  margin-bottom: 80px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--PC-colorBGLight);
+}
+
+#user > .divUser > .infoUser {
+  margin-right: 80px;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: var(--PC-gap-s);
+}
+
+.infoUser > div {
+  display: flex;
+  flex-direction: column;
+  gap: var(--PC-gap-xs);
+}
+
+.imgUser {
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  width: 100px;
+  min-width: 50px;
+  height: fit-content;
+  overflow: hidden;
+}
+
+.imgUser > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

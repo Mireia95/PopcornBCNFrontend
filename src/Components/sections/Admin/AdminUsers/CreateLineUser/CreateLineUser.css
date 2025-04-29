@@ -1,0 +1,36 @@
+/* linea de user */
+#userList > .lineUser {
+  justify-content: flex-start;
+  padding: 10px 15px;
+  background-color: rgb(226, 226, 226);
+}
+
+.lineUser > h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.lineUser > h3:not(.role),
+.lineUser > p:not(.role) {
+  min-width: 20%;
+}
+
+.lineUser > p {
+  font-size: 14px;
+  font-weight: 200;
+  color: var(--PC-colorDark);
+}
+
+.lineUser > p:nth-child(3),
+.lineUser > h3:nth-child(3) {
+  min-width: 200px;
+}
+
+.role {
+  width: 50px;
+}
+
+.userButtons {
+  gap: 10px;
+  margin-left: var(--PC-margin-s);
+}

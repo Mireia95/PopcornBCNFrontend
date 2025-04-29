@@ -1,0 +1,63 @@
+.editDescription {
+  width: 100%;
+}
+.editDescription > textarea {
+  border: 1px solid var(--PC-colorPrimary);
+  border-radius: var(--PC-border-radius-input);
+  padding: 10px;
+  height: 80px;
+}
+
+.stateForm > select {
+  border: 1px solid VAR(--PC-colorPrimary);
+  padding: var(--PC-padding-xs);
+  border-radius: var(--PC-border-radius-input);
+}
+
+.trailerForm {
+  width: 100%;
+}
+
+.editImage {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  border-bottom: 1px solid var(--PC-colorSelected);
+  padding-bottom: 15px;
+}
+.editImage > div > input {
+  width: 100px;
+  border: none;
+  padding: 0;
+  border-radius: 0;
+}
+
+.editImage > p {
+  font-size: 12px;
+  font-style: italic;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgb(86, 86, 86);
+  padding: 5px;
+  border: 1px solid var(--PC-colorSelected);
+  border-radius: 8px;
+}
+
+.fieldset {
+  gap: 20px;
+}
+.fieldset > .fieldForm {
+  flex-direction: row-reverse;
+}
+
+.form > form > .select {
+  flex-direction: row;
+}
+
+.form > .deleteButt {
+  position: absolute;
+  left: 40px;
+  bottom: 50px;
+  font-size: 15px;
+  padding: 15px 20px;
+}

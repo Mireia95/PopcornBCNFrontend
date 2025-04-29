@@ -1,0 +1,47 @@
+#simAndComm {
+  max-width: var(--PC-maxwidth-page);
+  margin: auto;
+
+  min-height: 300px;
+}
+
+.divSwitch {
+  gap: 30px;
+  border-bottom: 1px solid grey;
+}
+
+.divSwitch > button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  gap: 5px;
+  padding: 15px 20px;
+  height: 100%;
+  border-radius: 0;
+}
+
+.divSwitch > button:hover {
+  background-color: #403f4d;
+  border-radius: 8px 8px 0 0;
+}
+
+.divSwitch > button > img {
+  width: 18px;
+}
+
+.divSwitch > button.selected {
+  font-weight: 600;
+  font-size: 15px;
+  border-bottom: 3px solid white;
+}
+
+.divSwitch > button.selected > img {
+  width: 20px;
+}
+
+.contentSimAndComm {
+  margin: 20px 0;
+  padding: 20px;
+  min-height: 200px;
+  position: relative;
+}

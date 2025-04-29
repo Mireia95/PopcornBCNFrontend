@@ -1,0 +1,16 @@
+.screeningForm > form {
+  flex-direction: column;
+}
+.screeningForm > form > select {
+  gap: 30px;
+}
+
+.addVersion > div > input {
+  width: 100px;
+  margin: 5px;
+}
+
+.screenAddPrice {
+  width: 150px;
+  border: none;
+}

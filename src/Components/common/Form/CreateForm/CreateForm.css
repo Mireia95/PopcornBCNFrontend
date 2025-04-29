@@ -1,0 +1,50 @@
+.form {
+  position: fixed;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  min-width: 600px;
+  min-height: 300px;
+  max-height: 90%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--PC-padding-s);
+  z-index: 1000;
+  overflow: auto;
+}
+
+.form > h3 {
+  width: 100%;
+  color: var(--PC-colorDark);
+  margin: var(--PC-margin-);
+  text-align: center;
+}
+
+.form > form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--PC-gap-s);
+  padding: var(--PC-padding-s);
+}
+
+.form label {
+  color: var(--PC-colorDark);
+}
+
+.form * input:focus-visible {
+  border: 2px solid var(--PC-colorPrimary);
+}
+
+.divButtons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.divButtons > button {
+  margin: 10px;
+}

@@ -1,0 +1,6 @@
+.logoutButt {
+  background-color: var(--PC-colorTertiary);
+  color: white;
+  font-weight: 600;
+  border: 1px solid var(--PC-borderLight);
+}

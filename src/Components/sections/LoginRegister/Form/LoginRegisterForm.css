@@ -1,0 +1,17 @@
+#user > form {
+  flex-direction: column;
+  width: 400px;
+  margin: auto;
+  margin-top: 150px;
+}
+
+#user > form > .fieldForm {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+@media (max-height: 800px) {
+  #user > form {
+    margin-top: 60px;
+  }
+}

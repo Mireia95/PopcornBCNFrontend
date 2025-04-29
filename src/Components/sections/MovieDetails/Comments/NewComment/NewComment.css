@@ -1,0 +1,27 @@
+form.commentContainer {
+  margin: auto;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.commentContainer > textarea {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  resize: none;
+  border-radius: 10px;
+  border: 1px solid var(--PC-colorSelected);
+  background-color: var(--PC-colorTextarea);
+}
+
+.divSubmitButt {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.divSubmitButt > .submitButt {
+  border: 1px solid var(--PC-colorBGDark);
+}

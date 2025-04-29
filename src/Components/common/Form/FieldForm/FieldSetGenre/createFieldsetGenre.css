@@ -1,0 +1,8 @@
+.fieldset {
+  color: black;
+  border: 1px solid var(--PC-colorPrimary);
+  border-radius: 10px;
+  padding: 15px;
+  gap: 10px;
+  flex-wrap: wrap;
+}

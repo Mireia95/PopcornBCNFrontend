@@ -1,0 +1,28 @@
+.addListButt {
+  padding: 0;
+  border-radius: 8px;
+  background-color: var(--PC-colorBGDark);
+  border: 1px solid var(--PC-colorSecondary);
+  width: 36px;
+  height: 36px;
+}
+
+.addListButt > img {
+  width: 20px;
+}
+
+.added {
+  background-color: var(--PC-colorSecondary);
+}
+
+.confirmAddList {
+  padding: 10px 20px;
+  width: 100%;
+  background-color: var(--PC-colorBGDarkAlpha);
+  position: absolute;
+  top: 50%;
+  font-size: 14px;
+  text-align: center;
+  border-top: 1px solid var(--PC-colorSecondary);
+  border-bottom: 1px solid var(--PC-colorSecondary);
+}

@@ -1,0 +1,12 @@
+.select {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.select > select {
+  padding: 5px;
+  border: 1px solid var(--PC-colorPrimary);
+  border-radius: 8px;
+}

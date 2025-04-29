@@ -1,0 +1,5 @@
+.errorRequest {
+  margin: var(--PC-margin-s);
+  color: var(--PC-colorError);
+  text-align: center;
+}

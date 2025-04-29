@@ -1,0 +1,15 @@
+.filters {
+  display: flex;
+  gap: var(--PC-gap-m);
+}
+
+.filters > select {
+  width: fit-content;
+  padding: var(--PC-padding-xxs) var(--PC-padding-xs);
+  border: 1px solid var(--PC-colorLight);
+  border-radius: var(--PC-border-radius-options);
+  background-color: var(--PC-colorBGDark);
+  color: var(--PC-colorLight);
+  font-size: 14px;
+  font-weight: 300;
+}

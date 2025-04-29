@@ -1,0 +1,37 @@
+#userList,
+.sidebarUsers,
+.listUsers,
+.lineUser {
+  width: 100%;
+}
+
+#userList {
+  background-color: transparent;
+  padding: 20px 0;
+  border-radius: 15px;
+  position: relative;
+}
+
+#userList > .sidebarUsers {
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.sidebarUsers > div {
+  gap: 10px;
+}
+
+#userList > div:nth-child(2) {
+  background-color: grey;
+}
+
+/* button search cerca del input */
+.buttSearch {
+  border-radius: 50%;
+  border: 1px solid grey;
+  padding: 5px;
+}
+
+.buttSearch > img {
+  width: 15px;
+}

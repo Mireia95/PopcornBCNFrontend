@@ -1,0 +1,11 @@
+.myListButt {
+  border: 1px solid var(--PC-colorSecondary);
+  background-color: transparent;
+  color: var(--PC-colorSecondary);
+  height: 45px;
+}
+
+.myListActive {
+  background-color: var(--PC-colorSecondary);
+  color: var(--PC-colorBGDark);
+}

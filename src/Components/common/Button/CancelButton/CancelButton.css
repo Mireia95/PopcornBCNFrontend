@@ -1,0 +1,9 @@
+.cancelEdit {
+  background-color: var(--PC-colorLight);
+  color: var(--PC-colorPrimary);
+  border: 2px solid var(--PC-colorPrimary);
+}
+
+.cancelDelete {
+  border: 1px solid red;
+}

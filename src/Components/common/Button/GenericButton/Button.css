@@ -1,0 +1,30 @@
+.darkButton {
+  background-color: var(--PC-colorBGDark);
+  color: var(--PC-colorLight);
+  border: 2px solid var(--PC-colorLight);
+}
+
+.lightButton {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.loginButton {
+  background-color: var(--PC-colorTertiary);
+  color: white;
+  border: 2px solid white;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--PC-gap-xs);
+  padding: 15px 20px;
+  border-radius: var(--PC-border-radius);
+}
+
+button > img {
+  width: 20px;
+}

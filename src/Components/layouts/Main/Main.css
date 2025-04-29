@@ -1,0 +1,8 @@
+main {
+  min-height: 98svh;
+  background-color: var(--PC-colorBGDark);
+}
+
+.lightTheme {
+  background-color: var(--PC-colorBGLight);
+}

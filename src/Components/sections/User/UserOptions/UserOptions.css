@@ -1,0 +1,35 @@
+#user > .userOptions {
+  max-width: 800px;
+  justify-content: space-around;
+  margin: auto;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.userOption {
+  flex-direction: column;
+  padding: 30px;
+  gap: 15px;
+  border: 1px solid var(--PC-colorBGLight);
+  border-radius: 10px;
+  width: 190px;
+  height: 190px;
+  transition: all 0.2s;
+}
+
+.userOption > button {
+  background-color: var(--PC-colorBGLight);
+  width: 100%;
+  transition: all 0.2s;
+}
+
+.userOption:hover {
+  border: 1px solid var(--PC-colorTertiary);
+  transform: scale(1.05);
+}
+
+.userOption:hover > button {
+  background-color: var(--PC-colorTertiary);
+  color: var(--PC-colorLight);
+}

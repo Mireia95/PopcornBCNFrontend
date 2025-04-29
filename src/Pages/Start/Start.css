@@ -1,0 +1,68 @@
+#start {
+  width: 100%;
+  height: 100svh;
+  color: white;
+  position: relative;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.start {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--PC-gap-s);
+}
+
+.start > div:first-child {
+  width: fit-content;
+  display: flex;
+}
+
+.sectionsMenu {
+  display: flex;
+  align-items: center;
+}
+
+.divMenu {
+  flex-direction: column;
+}
+
+.divMenu > h4 {
+  color: white;
+  font-size: 25px;
+}
+.divMenu > img {
+  width: 110px;
+}
+
+.start > h2 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.scroll {
+  flex-direction: column;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  position: absolute;
+  bottom: 60px;
+  gap: 20px;
+}
+
+.scroll > img {
+  width: 40px;
+}
+
+.startBG {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 0;
+  background-image: url('https://res.cloudinary.com/dr2vohk2z/image/upload/v1735738590/PopcornBCN/StartBG_fzgvqb.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

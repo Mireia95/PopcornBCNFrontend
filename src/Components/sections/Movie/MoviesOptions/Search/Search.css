@@ -1,0 +1,21 @@
+.search {
+  gap: 10px;
+  margin-left: 150px;
+}
+
+.search > img {
+  height: 25px;
+}
+
+#search {
+  height: 30px;
+  min-width: 200px;
+  padding: var(--PC-padding-s);
+  border-radius: var(--PC-border-radius-input);
+  background-color: var(--PC-colorMidDark);
+}
+
+#search::placeholder {
+  color: var(--PC-colorLight);
+  font-weight: 200;
+}

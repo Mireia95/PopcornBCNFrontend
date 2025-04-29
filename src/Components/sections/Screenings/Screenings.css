@@ -1,0 +1,39 @@
+.screeningsContainer {
+  background-color: var(--PC-colorBGLight);
+  width: 90%;
+  max-width: 1200px;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 30px;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.screeningsContainer > h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.screeningsContainer > div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.buttClose {
+  border: 1px solid var(--PC-colorPrimary);
+  color: var(--PC-colorPrimary);
+  background-color: var(--PC-colorLight);
+  margin: auto;
+}
+
+@media (max-width: 880px) {
+  .screeningsContainer {
+    top: 0;
+    width: 100%;
+  }
+}

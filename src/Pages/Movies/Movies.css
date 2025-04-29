@@ -1,0 +1,19 @@
+#movies {
+  position: relative;
+  max-width: var(--PC-maxwidth-page);
+  min-height: 90svh;
+}
+
+#movies > h2 {
+  color: var(--PC-colorLight);
+}
+
+#movies > h2.light {
+  color: var(--PC-colorPrimary);
+}
+
+#movies > .moviesCards {
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-around;
+}

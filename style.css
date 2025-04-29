@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+  /* VARIABILI */
+  /* colors */
+  --PC-colorPrimary: #152c4a;
+  --PC-colorPrimary-alpha: rgba(21, 44, 74, 0.7, 0.8);
+  --PC-colorSecondary: #fcc356;
+  --PC-colorSecondary-alpha: rgba(252, 195, 86, 0.8);
+  --PC-colorTertiary: #8a2be2;
+  --PC-colorCines: #96bcef;
+  --PC-colorBGDark: #161a26;
+  --PC-colorBGDarkAlpha: rgba(41, 40, 50, 0.8);
+  --PC-colorMidDark: #414952;
+  --PC-borderLight: #aeaeae;
+  --PC-colorTextarea: #d9d9d9;
+
+  --PC-colorBGLight: #eff3f6;
+  --PC-colorBGLight-alpha: rgba(239, 243, 246, 0.8);
+
+  --PC-colorDark: #000000;
+  --PC-colorLight: #ffffff;
+
+  --PC-colorDeleteUserBG: #ffe5e5;
+  --PC-colorDeleteUser: #9d0000;
+
+  --PC-colorError: #fe5656;
+
+  --PC-colorSelected: #dcdddd;
+
+  /* margins */
+  --PC-margin-xs: 10px;
+  --PC-margin-s: 20px;
+  --PC-margin-m: 30px;
+  --PC-margin-l: 50px;
+
+  --PC-padding-xxs: 5px;
+  --PC-padding-xs: 10px;
+  --PC-padding-s: 20px;
+  --PC-padding-m: 30px;
+  --PC-padding-l: 50px;
+
+  --PC-gap-xs: 10px;
+  --PC-gap-s: 20px;
+  --PC-gap-m: 30px;
+  --PC-gap-l: 40px;
+
+  --PC-border-radius: 15px;
+  --PC-border-radius-button: 10px;
+  --PC-border-radius-movieCard: 10px;
+  --PC-border-radius-popup: 10px;
+  --PC-border-radius-input: 8px;
+  --PC-border-radius-options: 5px;
+
+  --PC-maxwidth-page: 1440px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+  font-optical-sizing: auto;
+  border: none;
+}
+
+body {
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  position: relative;
+}
+
+button,
+a {
+  cursor: pointer;
+  border: none;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+/* class general para display:flex */
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* class para esconder elementos con display:none */
+.displayNone {
+  display: none;
+}
+
+/* class para las paginas principales */
+.page {
+  max-width: var(--PC-maxwidth-page);
+  margin: auto;
+  color: white;
+  padding: var(--PC-padding-l) 50px 20px 200px;
+}
+
+.page > h2 {
+  text-align: center;
+  margin-bottom: var(--PC-margin-l);
+  font-size: 28px;
+}
+
+input {
+  padding: var(--PC-padding-xs);
+  border-radius: var(--PC-border-radius-input);
+  border: 1px solid var(--PC-colorPrimary);
+}

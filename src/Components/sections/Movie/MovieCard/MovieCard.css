@@ -1,0 +1,94 @@
+/* MOVIES CARDS */
+
+.movieCard {
+  width: 250px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: var(--PC-border-radius-movieCard);
+  overflow: hidden;
+  position: relative;
+}
+
+.movieCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 29px 25px -11px var(--PC-colorDark);
+}
+
+.movieCard > img {
+  width: 100%;
+  height: 375px;
+}
+
+.movieCard > div:not(.hoverInfo) {
+  background-color: var(--PC-colorBGLight);
+  padding: 10px 15px 15px;
+  color: var(--PC-colorDark);
+}
+
+.movieCard > div > div {
+  justify-content: space-between;
+}
+
+.state {
+  gap: 8px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.infoCard {
+  width: 100%;
+  height: 60px;
+  background-color: white;
+}
+
+.movieCard > .editButt {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.movieCard > .addListButt:hover {
+  background-color: var(--PC-colorLight);
+}
+
+.movieCard > .addListButt {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.movieCard > .editButt:hover {
+  background-color: var(--PC-colorLight);
+}
+
+.hoverInfo {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: var(--PC-colorPrimary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  transform: translateY(50px);
+  transition: all 0.5s ease;
+}
+
+.hoverInfo > p {
+  font-size: 20px;
+  color: white;
+}
+
+.hoverInfo:hover {
+  opacity: 1;
+  transform: translate(0);
+}

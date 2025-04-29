@@ -1,0 +1,17 @@
+/* label para update image user */
+.updateImg {
+  gap: 10px;
+  min-width: 265px;
+  padding: 5px 15px;
+  border: 1px solid white;
+  border-radius: var(--PC-border-radius-input);
+}
+
+.updateImg > img {
+  width: 20px;
+}
+
+/* escondo el input para actualizar la imagen del user */
+#userImg {
+  display: none;
+}

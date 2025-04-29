@@ -1,0 +1,47 @@
+.commentContainer {
+  max-width: 800px;
+  min-height: 100px;
+  background-color: #eff3f6;
+  border: 1px solid #dde1e3;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.commentUser {
+  gap: 10px;
+  justify-content: flex-start;
+  font-size: 15px;
+}
+.commentUser > img {
+  border-radius: 50%;
+  width: 30px;
+}
+
+.date {
+  color: grey;
+  font-size: 13px;
+}
+
+.commentInfo > * {
+  padding: 5px 15px;
+  border: 1px solid grey;
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+#simAndComm .commentInfo,
+#user .commentInfo {
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 5px;
+  flex-wrap: wrap;
+}
+#simAndComm .commentUserAndDate,
+#user .commentUserAndDate {
+  justify-content: space-between;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}

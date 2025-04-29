@@ -1,0 +1,40 @@
+.divDoLogin {
+  position: fixed;
+  top: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--PC-colorLight);
+  border-radius: var(--PC-border-radius-popup);
+  width: 350px;
+  padding: 50px 40px 30px 40px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.divDoLogin > div {
+  display: flex;
+  gap: 20px;
+}
+
+.divDoLogin > div > h4 {
+  font-weight: 600;
+}
+
+.divDoLogin > div > img {
+  width: 40px;
+}
+
+.divDoLogin > a {
+  width: 100%;
+  text-align: center;
+  padding: 10px 25px;
+  background-color: var(--PC-colorTertiary);
+  color: var(--PC-colorLight);
+  border: 1px solid var(--PC-colorBGDark);
+  font-size: 16px;
+  border-radius: var(--PC-border-radius-button);
+}
+
+.divDoLogin > .close {
+  padding: 5px;
+}

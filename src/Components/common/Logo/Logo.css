@@ -1,0 +1,16 @@
+.logo {
+  position: fixed;
+  left: 0px;
+  margin: var(--PC-margin-s);
+  color: var(--PC-colorLight);
+  cursor: pointer;
+  z-index: 10;
+}
+
+.logo > img {
+  width: 50px;
+}
+
+.logo > h4.light {
+  color: var(--PC-colorPrimary);
+}

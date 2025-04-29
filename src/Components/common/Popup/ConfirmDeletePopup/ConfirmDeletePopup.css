@@ -1,0 +1,36 @@
+.confirmDelete {
+  position: fixed;
+  z-index: 9999;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 500px;
+  min-width: fit-content;
+  flex-direction: column;
+  background-color: white;
+  padding: 30px 40px 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.confirmDelete > h4 {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--PC-colorDark);
+}
+
+.confirmDelete > div > button {
+  margin: 10px;
+  margin-bottom: 0;
+}
+
+.delete {
+  background-color: #9d0000;
+  color: white;
+}
+
+.cancel {
+  border: 1px solid #9d0000;
+  color: #9d0000;
+  background-color: transparent;
+}

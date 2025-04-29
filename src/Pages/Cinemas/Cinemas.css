@@ -1,0 +1,4 @@
+#cinemas {
+  max-width: var(--PC-maxwidth-page);
+  margin: auto;
+}
