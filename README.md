@@ -2,6 +2,7 @@
 
 <div align="center">
 <img src="https://res.cloudinary.com/dr2vohk2z/image/upload/v1746569246/PopcornBCN/Preview/PopcornBCNPreviewDesktop_r0zfb2.png" alt="desktop preview" />
+<img src="https://res.cloudinary.com/dr2vohk2z/image/upload/v1746898901/PopcornBCN/Preview/PopcornBCNPreviewMobile2_m3mc8q.png" alt="mobile preview" />
 </div>
 
 ## Descripción
@@ -10,7 +11,7 @@ PopcornBCN es una página que permite ver la lista de películas disponibles en 
 
 ## Live Demo
 
-link http://popcornbcn.cloudinary.com
+link http://popcornbcn......
 
 ## Features
 
