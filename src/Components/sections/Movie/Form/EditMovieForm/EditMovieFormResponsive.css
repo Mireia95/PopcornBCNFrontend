@@ -1,0 +1,33 @@
+@media (max-width: 800px) {
+  .fieldset {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .form {
+    max-width: 100%;
+    top: 20px;
+    left: 0;
+    transform: translate(0, 0);
+  }
+  .editImage {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .form * label {
+    font-size: 14px;
+  }
+
+  .form * input {
+    font-size: 12px;
+  }
+
+  .form > .deleteButt {
+    left: 40px;
+    bottom: 30px;
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}

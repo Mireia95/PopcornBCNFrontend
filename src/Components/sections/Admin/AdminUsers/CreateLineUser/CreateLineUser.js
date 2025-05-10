@@ -5,6 +5,7 @@ import { createForm } from '../../../../common/Form/CreateForm/CreateForm';
 import { editUserForm } from '../../../User/Form/EditUserForm/EditUserForm';
 
 import './CreateLineUser.css';
+import './CreateLineUserResponsive.css';
 
 //componente para crear los titulos de la lista de user
 export const createLineUser = ({

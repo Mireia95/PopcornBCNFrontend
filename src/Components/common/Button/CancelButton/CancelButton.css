@@ -7,3 +7,9 @@
 .cancelDelete {
   border: 1px solid red;
 }
+
+@media (max-width: 800px) {
+  .cancelEdit {
+    border: 1px solid var(--PC-colorPrimary);
+  }
+}

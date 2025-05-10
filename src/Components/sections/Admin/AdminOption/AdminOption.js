@@ -1,5 +1,6 @@
 import { loading } from '../../../common/Loading/Loading';
 import './AdminOption.css';
+import './AdminOptionResponsive.css';
 
 export const createAdminOption = ({ title, text, buttonText, funcion }) => {
   const adminPage = document.querySelector('#admin');

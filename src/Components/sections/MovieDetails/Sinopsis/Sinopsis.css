@@ -7,3 +7,12 @@
   margin: auto;
   padding: 0 200px;
 }
+
+@media (max-width: 900px) {
+  .sinopsis {
+    max-width: 90%;
+    font-size: 14px;
+    margin: auto;
+    padding: 0 30px;
+  }
+}

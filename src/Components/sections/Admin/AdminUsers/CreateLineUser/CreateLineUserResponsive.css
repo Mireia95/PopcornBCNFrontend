@@ -1,0 +1,48 @@
+@media (max-width: 880px) {
+  .lineUser > h3 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .lineUser > h3:not(.role),
+  .lineUser > p:not(.role) {
+    min-width: 100px;
+  }
+
+  .lineUser > p {
+    font-size: 12px;
+  }
+
+  .lineUser > p:nth-child(3),
+  .lineUser > h3:nth-child(3) {
+    min-width: 100px;
+  }
+
+  .role {
+    width: 50px;
+  }
+
+  .userButtons {
+    gap: 10px;
+    margin-left: var(--PC-margin-s);
+  }
+}
+
+/* l hacer flex wrap los botones bajan. Arreglo su estilo cuando pasa */
+@media (max-width: 550px) {
+  .lineUser {
+    flex-wrap: wrap;
+  }
+
+  .userButtons {
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--PC-borderLight);
+  }
+
+  #userList .userButtons {
+    justify-content: flex-end;
+  }
+}

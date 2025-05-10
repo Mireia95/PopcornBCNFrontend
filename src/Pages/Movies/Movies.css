@@ -17,3 +17,9 @@
   gap: 30px;
   justify-content: space-around;
 }
+
+@media (max-width: 570px) {
+  #movies > .moviesCards {
+    justify-content: center;
+  }
+}

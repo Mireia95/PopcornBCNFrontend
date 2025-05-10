@@ -1,0 +1,13 @@
+@media (max-height: 900px) {
+  #user > form {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 500px) {
+  #user > form {
+    width: 100%;
+    margin: auto;
+    margin-top: 60px;
+    padding: 10px;
+  }
+}

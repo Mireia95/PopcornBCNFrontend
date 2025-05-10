@@ -1,0 +1,58 @@
+@media (max-width: 800px) {
+  .movieCard {
+    width: 150px;
+    height: 220px;
+    margin-bottom: 0px;
+  }
+
+  .movieCard:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  .movieCard > img {
+    width: 100%;
+    height: 195px;
+    object-fit: cover;
+    object-position: 50% 0%;
+  }
+
+  .movieCard > div:not(.hoverInfo) {
+    background-color: var(--PC-colorBGLight);
+    padding: 5px 10px;
+    color: var(--PC-colorDark);
+    font-size: 10px;
+    height: 25px;
+  }
+
+  .movieCard > div > div {
+    justify-content: space-between;
+  }
+
+  .state {
+    gap: 5px;
+    font-size: 10px;
+  }
+
+  .state > img {
+    width: 8px;
+  }
+
+  /* escondo el hover info para movil, asi cuando hacen click en la card vamos directos a los details */
+  .hoverInfo {
+    opacity: 0;
+    top: 0;
+    width: 100%;
+    height: 70%;
+    transform: translateY(40px);
+  }
+
+  .hoverInfo > p {
+    font-size: 15px;
+    color: white;
+  }
+
+  .hoverInfo:hover {
+    opacity: 0;
+  }
+}

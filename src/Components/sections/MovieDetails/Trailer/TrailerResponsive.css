@@ -1,0 +1,22 @@
+@media (max-width: 850px) {
+  .trailer {
+    width: 100%;
+    top: 100px;
+    padding: 50px 20px 20px;
+  }
+  .close {
+    right: 10px;
+    top: 10px;
+  }
+
+  .close > img {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media (max-width: 450px) {
+  .trailer {
+    padding: 40px 0px 16px 0px;
+  }
+}

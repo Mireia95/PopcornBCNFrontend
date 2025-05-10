@@ -1,8 +1,19 @@
-.cineForm input[name='link'],
-.cineForm input[name='address'] {
+.cineForm > form > .fieldForm {
   width: 350px;
 }
 
 .cineForm {
   width: 500px;
+}
+
+@media (max-width: 600px) {
+  .cineForm > form > .fieldForm,
+  .cineForm input[name='link'],
+  .cineForm input[name='address'] {
+    width: 100%;
+  }
+
+  .cineForm > form > .divButtons {
+    margin-bottom: 50px;
+  }
 }

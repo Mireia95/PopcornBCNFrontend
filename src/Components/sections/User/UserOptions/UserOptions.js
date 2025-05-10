@@ -2,6 +2,7 @@ import { userOptions } from '../../../../Utils/Data/DataUser';
 import { createButton } from '../../../common/Button/GenericButton/Button';
 
 import './UserOptions.css';
+import './UserOptionsResponsive.css';
 
 export const displayUserOptions = (user) => {
   const userPage = document.getElementById('user');

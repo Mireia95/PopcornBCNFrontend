@@ -1,0 +1,13 @@
+@media (max-width: 500px) {
+  .adminOptions > .adminOption {
+    padding: 25px 30px 20px 30px;
+  }
+
+  .adminOption:hover {
+    transform: scale(1);
+  }
+
+  .adminOption > h3 {
+    font-size: 16px;
+  }
+}

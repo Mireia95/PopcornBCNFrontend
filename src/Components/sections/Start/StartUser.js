@@ -2,6 +2,7 @@ import { createButton } from '../../common/Button/GenericButton/Button';
 import { LoginRegisterStart } from '../LoginRegister/LoginRegister';
 
 import './MenuStart.css';
+import './MenuStartResponsive.css';
 
 export const createStartUser = (section) => {
   const divUser = document.createElement('div');

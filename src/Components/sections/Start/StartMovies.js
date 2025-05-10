@@ -4,6 +4,8 @@ import { getFooter } from '../../layouts/Footer/Footer';
 import { displayHeader } from '../../layouts/Header/Header';
 
 import './MenuStart.css';
+import './MenuStartResponsive.css';
+
 export const createStartMovies = (section) => {
   const moviesMenu = createButton({
     texto: 'Películas',

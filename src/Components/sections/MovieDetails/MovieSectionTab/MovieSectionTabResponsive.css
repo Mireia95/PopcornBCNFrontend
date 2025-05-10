@@ -1,0 +1,30 @@
+@media (max-width: 900px) {
+  /* .divSwitch {
+    gap: 30px;
+    border-bottom: 1px solid grey;
+  } */
+
+  .divSwitch > button {
+    padding: 8px 16px;
+  }
+
+  .divSwitch > button > img {
+    width: 16px;
+  }
+
+  .divSwitch > button.selected {
+    font-weight: 500;
+    font-size: 14px;
+    border-bottom: 2px solid white;
+  }
+
+  .divSwitch > button.selected > img {
+    width: 18px;
+  }
+
+  .contentSimAndComm {
+    margin: 15px 0;
+    padding: 20px;
+    width: 100%;
+  }
+}

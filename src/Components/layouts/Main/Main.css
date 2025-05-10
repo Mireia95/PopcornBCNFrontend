@@ -1,8 +1,16 @@
 main {
-  min-height: 98svh;
+  min-height: 95svh;
   background-color: var(--PC-colorBGDark);
+  overflow-y: auto;
 }
 
 .lightTheme {
   background-color: var(--PC-colorBGLight);
+}
+
+@media (max-width: 800px) {
+  #app > main {
+    min-height: 100svh;
+    overflow: hidden;
+  }
 }

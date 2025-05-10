@@ -1,0 +1,19 @@
+@media (max-width: 800px) {
+  .soporte {
+    left: 50%;
+  }
+
+  .soporte > h3 {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
+  .soporte > p {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  .soporte > a {
+    font-weight: 400;
+  }
+}

@@ -1,6 +1,7 @@
 import { defaultImages } from '../../../../Utils/Data/DefaultImages';
 import { displayRatingStars } from '../../MovieDetails/Comments/RatingStars/createRatingStars';
 import './CommentCard.css';
+import './CommentCardResponsive.css';
 
 export const createCommentCard = ({ comment }) => {
   const article = document.createElement('article');

@@ -4,6 +4,7 @@ import { createCommentCard } from '../../Comments/CommentCard/CommentCard';
 import { displayUserOptions } from '../UserOptions/UserOptions';
 
 import './UserComments.css';
+import './UserCommentsResponsive.css';
 
 export const displayUserComments = (user) => {
   const userPage = document.getElementById('user');

@@ -4,4 +4,12 @@ footer {
   background-color: #000000;
   color: white;
   font-size: 13px;
+  position: absolute;
+  bottom: 0;
+}
+
+@media (max-width: 800px) {
+  footer {
+    display: none !important;
+  }
 }

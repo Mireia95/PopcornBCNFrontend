@@ -5,6 +5,7 @@ import { createLogoutButt } from '../../../common/Button/LogoutButton/LogoutButt
 
 import { updateImgUser } from '../UserUpdateImg/UserUpdateImg';
 import './UserInfo.css';
+import './UserInfoResponsive.css';
 
 export const getUserInfo = (user, section) => {
   //pinto info del user
@@ -19,7 +20,7 @@ export const getUserInfo = (user, section) => {
   const divInfo = document.createElement('div');
   divInfo.classList.add('infoUser', 'flexCenter');
   const name = document.createElement('h4');
-  name.innerHTML = `<h3>Hola <b> ${user.username} </b> <img alt="hola" src="https://res.cloudinary.com/dr2vohk2z/image/upload/v1742068203/PopcornBCN/hello_uyxgws.png"></h3>`;
+  name.innerHTML = `Hola <b> ${user.username} </b> <img alt="hola" src="https://res.cloudinary.com/dr2vohk2z/image/upload/v1742068203/PopcornBCN/hello_uyxgws.png">`;
 
   //creo form para actualizar la imagen del user, acepta los tipos de imagen que acepta mi backend
   const updateImgForm = updateImgUser();

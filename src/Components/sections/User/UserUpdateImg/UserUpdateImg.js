@@ -17,11 +17,15 @@ export const updateImgUser = () => {
   input.addEventListener('change', async () => {
     const formData = new FormData();
     formData.append('image', input.files[0]);
-    const user = await editUser({ body: formData, isJson: false });
-    localStorage.setItem('user', JSON.stringify(user));
+    const user = await editUser({
+      body: formData,
+      isJson: false,
+      page: 'UserInfo'
+    });
+    const updateUser = JSON.parse(localStorage.getItem('user'));
     //actualizo el div user que tiene la imagen
     const imgUser = document.querySelector('.imgUser > img');
-    imgUser.src = `${user.image}`;
+    imgUser.src = `${updateUser.image}`;
   });
 
   updateImgForm.append(label, input);

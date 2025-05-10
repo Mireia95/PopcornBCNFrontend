@@ -10,4 +10,5 @@
   padding: 30px;
   gap: 20px;
   border-radius: var(--PC-border-radius-popup);
+  border: 1px solid var(--PC-colorTertiary);
 }

@@ -10,6 +10,20 @@
   margin-bottom: 20px;
 }
 
+.loginRegister > .fieldForm > input {
+  background-color: var(--PC-colorMidDark);
+  color: var(--PC-colorLight);
+}
+
+.loginRegister > .fieldForm > input:focus {
+  border: 1px solid var(--PC-colorSecondary);
+  outline: none;
+}
+
+.loginRegister > .fieldForm > input::placeholder {
+  color: var(--PC-borderLight);
+}
+
 @media (max-height: 800px) {
   #user > form {
     margin-top: 60px;

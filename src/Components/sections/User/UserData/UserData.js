@@ -6,6 +6,7 @@ import { editUserForm } from '../Form/EditUserForm/EditUserForm';
 import { displayUserEditPass } from '../UserEditPass/UserEditPass';
 import { displayUserOptions } from '../UserOptions/UserOptions';
 import './UserData.css';
+import './UserDataResponsive.css';
 
 export const displayUserData = (user) => {
   const userPage = document.getElementById('user');

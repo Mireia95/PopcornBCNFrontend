@@ -1,6 +1,7 @@
 import { createCancButton } from '../../Button/CancelButton/CancelButton';
 import { createSaveButton } from '../../Button/SaveButton/SaveButton';
 import './CreateForm.css';
+import './CreateFormResponsive.css';
 
 //funcion que me permite crear un form generico, que a su vez llama la funcion pasada por props para rellenar el formulario creado dependiendo de que inputs y submit necesitamos
 export const createForm = ({ funcion, element, title }) => {

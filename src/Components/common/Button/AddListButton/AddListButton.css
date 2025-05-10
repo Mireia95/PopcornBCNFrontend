@@ -26,3 +26,21 @@
   border-top: 1px solid var(--PC-colorSecondary);
   border-bottom: 1px solid var(--PC-colorSecondary);
 }
+
+@media (max-width: 850px) {
+  .addListButt {
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .addListButt > img {
+    width: 15px;
+  }
+
+  .confirmAddList {
+    padding: 5px 15px;
+    font-size: 12px;
+    font-weight: 300;
+  }
+}

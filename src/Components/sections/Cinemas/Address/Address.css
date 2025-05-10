@@ -9,3 +9,9 @@
 .address > img {
   width: 20px;
 }
+
+@media (max-width: 700px) {
+  .address {
+    font-size: 13px;
+  }
+}

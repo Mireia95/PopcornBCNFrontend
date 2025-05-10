@@ -19,9 +19,9 @@
 }
 
 .editImage {
+  width: 100%;
   display: flex;
   align-items: center;
-  width: 500px;
   border-bottom: 1px solid var(--PC-colorSelected);
   padding-bottom: 15px;
 }
@@ -52,12 +52,13 @@
 
 .form > form > .select {
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .form > .deleteButt {
-  position: absolute;
+  /*   position: absolute;
   left: 40px;
-  bottom: 50px;
+  bottom: 50px; */
   font-size: 15px;
   padding: 15px 20px;
 }

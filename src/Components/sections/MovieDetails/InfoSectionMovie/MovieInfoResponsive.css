@@ -1,0 +1,82 @@
+@media (max-width: 900px) {
+  /* INFO MOVIE */
+  #movie {
+    padding: 50px 0 30px 0;
+  }
+
+  #movie > h3 {
+    margin-bottom: 40px;
+    font-size: 18px;
+  }
+
+  #movie > div:not(.trailer) {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    gap: 15px;
+  }
+
+  #movie > div > .movieSummary {
+    gap: 30px;
+    margin: 0 0 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .divPoster {
+    width: 150px;
+  }
+
+  /* CHECK classe button general de componente, antes de copiar esto */
+  .movieSummary .addListButt {
+    padding: 5px 10px;
+    border-radius: 8px;
+  }
+
+  .divPoster > .confirmAddList {
+    width: 150px;
+  }
+
+  .infosMovie > div {
+    display: flex;
+    gap: 8px;
+    padding: 10px 0;
+  }
+
+  .infosMovie > div:first-child {
+    padding: 0 0 15px;
+  }
+
+  .infosMovie > div > h4 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .infosMovie > div > p {
+    font-size: 12px;
+  }
+
+  .buttonsInfoMovie {
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 20px;
+  }
+
+  /* buttons - check style button component */
+  .buttonsInfoMovie > button {
+    padding: 8px 16px;
+    border-radius: 10px;
+    gap: 8px;
+  }
+
+  .buttonsInfoMovie > button:hover {
+    transform: scale(1);
+    box-shadow: none;
+  }
+
+  .buttonsInfoMovie > button > img {
+    width: 16px;
+  }
+}

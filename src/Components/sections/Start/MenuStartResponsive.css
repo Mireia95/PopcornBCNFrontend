@@ -1,0 +1,100 @@
+@media (max-width: 920px) {
+  .menuStart {
+    gap: 10px;
+    width: 200px;
+    height: 300px;
+    margin: 30px;
+    margin-top: 0px;
+    font-size: 20px;
+    border: 1px solid white;
+    font-weight: 500;
+  }
+
+  .menuStart:first-of-type:hover {
+    transform: scale(1.01);
+  }
+  .menuStart:last-of-type:hover {
+    transform: scale(1.01);
+  }
+
+  .menuStart > img {
+    width: 80px;
+  }
+
+  .userStart {
+    font-size: 14px;
+    font-weight: 500;
+    gap: 20px;
+    padding: 0px 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  /** TITULO */
+  .start > div > h1 {
+    font-size: 35px;
+  }
+
+  .start > h2 {
+    font-size: 14px;
+  }
+
+  .start > div > img {
+    width: 60px;
+  }
+
+  .menuStart {
+    gap: 8px;
+    width: 120px;
+    height: 170px;
+    margin: 15px;
+    font-size: 16px;
+  }
+
+  .divMenu > h4 {
+    font-size: 14px;
+  }
+
+  .menuStart:first-of-type:hover {
+    transform: scale(1);
+  }
+  .menuStart:last-of-type:hover {
+    transform: scale(1);
+  }
+
+  .menuStart > img {
+    width: 50px;
+  }
+
+  .userStart {
+    font-size: 14px;
+    font-weight: 300;
+    height: auto;
+    gap: 15px;
+    padding: 20px 15px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .userStart > p {
+    text-align: center;
+  }
+
+  .userStart > button {
+    padding: 10px 15px;
+    font-size: 12px;
+    border: 1px solid var(--PC-colorLight);
+  }
+}
+
+@media (max-height: 800px) {
+  .divMenu > h4 {
+    font-weight: 600;
+    font-size: 23px;
+  }
+  .menuStart {
+    width: 300px;
+    height: 350px;
+    margin-top: 80px;
+  }
+}

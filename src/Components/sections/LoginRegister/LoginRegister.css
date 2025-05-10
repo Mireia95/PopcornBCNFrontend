@@ -10,7 +10,7 @@
 }
 
 #LoginRegisterStart {
-  background-color: var(--PC-colorPrimary);
+  background-color: var(--PC-colorBGDark);
   flex-direction: column;
   gap: 20px;
   padding: 50px;
@@ -39,7 +39,6 @@
 .changeForm {
   width: 100%;
   height: 50px;
-
   gap: 10px;
 }
 

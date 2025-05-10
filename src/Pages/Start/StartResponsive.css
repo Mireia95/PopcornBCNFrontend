@@ -1,0 +1,38 @@
+@media (max-width: 920px) {
+  .start {
+    width: 80%;
+  }
+
+  .start > h2 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .start > div > h1 {
+    font-size: 50px;
+  }
+
+  .start > div > img {
+    width: 80px;
+  }
+
+  .divMenu > h4 {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 20px;
+    text-align: center;
+  }
+
+  .divMenu > img {
+    width: 110px;
+  }
+
+  .scroll {
+    font-size: 16px;
+    bottom: 80px;
+  }
+
+  .scroll > img {
+    width: 30px;
+  }
+}

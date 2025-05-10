@@ -37,7 +37,6 @@
   margin-bottom: 30px;
 }
 
-/* CHECK classe button general de componente, antes de copiar esto */
 .movieSummary .addListButt {
   padding: 15px 20px;
   width: auto;
@@ -103,9 +102,9 @@
 }
 
 .buttonsInfoMovie > button:first-child {
-  background-color: #fcc356;
+  background-color: var(--PC-colorSecondary);
 }
 
 .buttonsInfoMovie > button:last-child {
-  background-color: #96bcef;
+  background-color: var(--PC-colorCines);
 }

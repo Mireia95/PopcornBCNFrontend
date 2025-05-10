@@ -5,3 +5,13 @@
   height: 50px;
   margin-bottom: var(--PC-margin-l);
 }
+
+@media (max-width: 850px) {
+  #movies > .options {
+    gap: 15px;
+    margin-bottom: var(--PC-margin-m);
+    flex-wrap: wrap;
+    justify-content: center;
+    height: fit-content;
+  }
+}

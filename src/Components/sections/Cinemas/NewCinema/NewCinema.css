@@ -16,3 +16,14 @@
   background-color: var(--PC-colorMidDark);
   cursor: pointer;
 }
+
+@media (max-width: 700px) {
+  .addCine {
+    padding: 30px 10px;
+    font-size: 16px;
+  }
+
+  .addCine > img {
+    width: 50px;
+  }
+}

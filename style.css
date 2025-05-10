@@ -66,9 +66,12 @@
   border: none;
 }
 
+#app {
+  min-height: 100svh;
+}
 body {
   height: 100%;
-  background-color: rgb(0, 0, 0);
+  background-color: var(--PC-colorBGDark);
   position: relative;
 }
 
@@ -112,4 +115,31 @@ input {
   padding: var(--PC-padding-xs);
   border-radius: var(--PC-border-radius-input);
   border: 1px solid var(--PC-colorPrimary);
+}
+
+@media (max-width: 800px) {
+  .page {
+    padding: 0 30px 20px 30px;
+    max-height: 92svh;
+    overflow: hidden;
+    overflow-y: auto;
+    margin-bottom: 100px;
+  }
+
+  .page > h2 {
+    text-align: center;
+    margin-bottom: var(--PC-margin-l);
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 450px) {
+  .page {
+    padding: 0 15px 10px 15px;
+  }
+
+  .page > h2 {
+    margin-bottom: var(--PC-margin-m);
+    font-size: 22px;
+  }
 }

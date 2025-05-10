@@ -1,6 +1,7 @@
 import { createinputForm } from '../../../common/Form/FieldForm/InputForm/createInputForm';
 
 import './LoginRegisterForm.css';
+import './LoginRegisterFormResponsive.css';
 import { doRegister } from '../Register/Register';
 import { doLogin } from '../Login/Login';
 import { createButton } from '../../../common/Button/GenericButton/Button';
@@ -15,7 +16,7 @@ export const LoginRegisterForm = (father, typeForm) => {
   h2.innerText = typeForm; //le paso Login o Crear cuenta
 
   const form = document.createElement('form');
-  form.classList.add('flexCenter');
+  form.classList.add('flexCenter', 'loginRegister');
   const username = createinputForm({
     labelText: 'Username',
     placeholder: 'Username'

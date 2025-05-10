@@ -49,7 +49,8 @@ export const editUser = async ({
 
     //chequeo si estamos en la pagina de user:
     const userPage = document.getElementById('user');
-    if (userPage) {
+    //si pasamos como prop page="userInfo" quiere decir que estamos actualizando la imagen de perfil, no los datos. Entonces no tengo que printear de nuevo la pagina.
+    if (userPage && page !== 'UserInfo') {
       //si lo importo normal me da error, porque esta funcion está llamada en DataHeader, y genero un bucle de dependencias. Por eso uso await import, para cargarlo solo cuando de verdad necesito ejecutarlo
       const { printPageUser } = await import('../../../Pages/User/User');
       printPageUser();

@@ -13,6 +13,14 @@
   gap: var(--PC-gap-s);
 }
 
+.infoUser > h4 {
+  font-size: 20px;
+}
+
+.infoUser > h4 > img {
+  width: 25px;
+}
+
 .infoUser > div {
   display: flex;
   flex-direction: column;
@@ -23,8 +31,7 @@
   border-radius: 50%;
   background-color: #d9d9d9;
   width: 100px;
-  min-width: 50px;
-  height: fit-content;
+  height: 100px;
   overflow: hidden;
 }
 

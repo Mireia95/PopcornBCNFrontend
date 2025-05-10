@@ -20,3 +20,14 @@
 .addMovieButt:hover {
   background-color: var(--PC-colorPrimary);
 }
+
+/* web responsive */
+@media (max-width: 850px) {
+  .addMovieButt {
+    font-size: 14px;
+  }
+
+  .addMovieButt > img {
+    width: 40px;
+  }
+}

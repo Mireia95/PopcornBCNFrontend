@@ -4,6 +4,8 @@ import { createButton } from '../../common/Button/GenericButton/Button';
 import { getFooter } from '../../layouts/Footer/Footer';
 import { displayHeader } from '../../layouts/Header/Header';
 import './MenuStart.css';
+import './MenuStartResponsive.css';
+
 export const createStartCinemas = (section) => {
   const cinesMenu = createButton({
     texto: 'Cines',

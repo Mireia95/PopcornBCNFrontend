@@ -1,5 +1,6 @@
 import { displaySinopsis } from '../Sinopsis/Sinopsis';
 import './MovieSectionTab.css';
+import './MovieSectionTabResponsive.css';
 import { displayAllComments } from '../Comments/Comments/Comments';
 import { createButton } from '../../../common/Button/GenericButton/Button';
 

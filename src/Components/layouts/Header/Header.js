@@ -3,6 +3,7 @@ import { addClassActive } from '../../../Utils/functions/addClass';
 import { addImage } from '../../../Utils/functions/addImage';
 import { navigate } from '../../../Utils/functions/navigate';
 import './Header.css';
+import './HeaderResponsive.css';
 
 export const displayHeader = ({ selected = 'movies' }) => {
   const divApp = document.querySelector('#app');
@@ -53,11 +54,12 @@ export const displayHeader = ({ selected = 'movies' }) => {
 const createLinkHeader = (name, icon, path) => {
   const a = document.createElement('a');
   const img = addImage(name, icon);
+  const p = document.createElement('p');
 
   a.className = 'flexCenter';
-  a.innerText = name;
+  p.innerText = name;
   a.href = path;
 
-  a.append(img);
+  a.append(img, p);
   return a;
 };

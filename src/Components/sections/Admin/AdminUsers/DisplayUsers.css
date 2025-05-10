@@ -35,3 +35,14 @@
 .buttSearch > img {
   width: 15px;
 }
+
+@media (max-width: 670px) {
+  .sidebarUsers > h2 {
+    font-size: 18px;
+  }
+
+  .sidebarUsers > div > input {
+    padding: 8px;
+    font-size: 12px;
+  }
+}

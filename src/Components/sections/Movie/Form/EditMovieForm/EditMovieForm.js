@@ -1,4 +1,5 @@
 import './EditMovieForm.css';
+import './EditMovieFormResponsive.css';
 
 import { editMovie } from '../../../../../Utils/routes/Movies/editMovie';
 import { createDeleteButt } from '../../../../common/Button/DeleteButton/DeleteButton';

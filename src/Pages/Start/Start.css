@@ -17,11 +17,14 @@
 .start > div:first-child {
   width: fit-content;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sectionsMenu {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .divMenu {

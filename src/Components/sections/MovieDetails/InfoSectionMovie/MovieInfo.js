@@ -8,6 +8,7 @@ import { displayScreenings } from '../../Screenings/Screenings';
 import { createPoster } from '../Poster/Poster';
 import { watchTrailer } from '../Trailer/Trailer';
 import './MovieInfo.css';
+import './MovieInfoResponsive.css';
 
 export const displayInfoMovie = (movie) => {
   const sectionMovie = createSection('main', 'movie');

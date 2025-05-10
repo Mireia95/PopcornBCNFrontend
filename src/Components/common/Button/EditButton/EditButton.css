@@ -6,3 +6,14 @@
 .editButt > img {
   width: 16px;
 }
+
+@media (max-width: 850px) {
+  .editButt {
+    padding: 8px 10px;
+    border-radius: 5px;
+  }
+
+  .editButt > img {
+    width: 13px;
+  }
+}

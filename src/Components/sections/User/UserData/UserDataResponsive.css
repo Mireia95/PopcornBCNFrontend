@@ -1,0 +1,22 @@
+@media (max-width: 800px) {
+  .userData {
+    gap: 20px;
+    padding: 15px;
+  }
+
+  .userData > .deleteUser > .deleteButt {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  .userData > .userForm,
+  .editPass {
+    padding-bottom: 20px;
+  }
+
+  .userData > .deleteUser > h3,
+  .editPass > h3 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}

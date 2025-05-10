@@ -1,0 +1,26 @@
+@media (max-width: 700px) {
+  .userComments > h3 {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+
+  .divComment {
+    margin-bottom: 40px;
+  }
+
+  .divComment > h4 {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .divComment > div {
+    gap: 20px;
+  }
+
+  .divComment > div > div {
+    width: 100px;
+    height: 170px;
+    border-radius: 5px;
+  }
+}

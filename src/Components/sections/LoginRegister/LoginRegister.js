@@ -3,6 +3,7 @@ import { LoginRegisterForm } from './Form/LoginRegisterForm';
 import { createScrollUpButton } from '../../common/Button/ScrollUpButton/ScrollUpButton';
 
 import './LoginRegister.css';
+import './LoginRegisterResponsive.css';
 
 /* funcion para la seccion de LoginRegister del INICIO.
 Se tiene que activar al hacer click al button "Login" del START */

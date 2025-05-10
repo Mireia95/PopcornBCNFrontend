@@ -2,6 +2,8 @@ import { toggleDisplayNone } from '../../../../Utils/functions/addClass';
 import { cleanElement } from '../../../../Utils/functions/cleanElement';
 import { createButton } from '../GenericButton/Button';
 
+import './BackButton.css';
+
 //funcion de boton para volver, para limpiar toda la pagina cuando etsamos en infoMovie
 export const createBackButton = ({
   clean = 'main',

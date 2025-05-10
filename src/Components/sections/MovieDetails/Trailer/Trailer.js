@@ -1,4 +1,5 @@
 import './Trailer.css';
+import './TrailerResponsive.css';
 
 import { closeButton } from '../../../common/Button/CloseButton/CloseButton';
 

@@ -3,6 +3,7 @@ import { addImage } from '../../Utils/functions/addImage';
 import { createSection } from '../../Utils/functions/createSection';
 import { createButton } from '../../Components/common/Button/GenericButton/Button';
 import './Start.css';
+import './StartResponsive.css';
 import '../../Components/Styles/Anims/Anims.css';
 import { createStartCinemas } from '../../Components/sections/Start/StartCinemas';
 import { createStartMovies } from '../../Components/sections/Start/StartMovies';

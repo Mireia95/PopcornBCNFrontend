@@ -4,6 +4,7 @@ import { createForm } from '../../../common/Form/CreateForm/CreateForm';
 import { createAddress } from '../Address/Address';
 import { getCinemaForm } from '../Form/CineForm';
 import './CinemaCard.css';
+import './CinemaCardResponsive.css';
 
 export const createCinemaCard = (cinema) => {
   const divCine = document.createElement('div');

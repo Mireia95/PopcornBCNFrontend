@@ -8,6 +8,7 @@ import { addListButton } from '../../../common/Button/AddListButton/AddListButto
 
 import { createNewMovieCard } from '../NewMovieCard/NewMovieCard';
 import './MovieCard.css';
+import './MovieCardResponsive.css';
 import { editMovieForm } from '../Form/EditMovieForm/EditMovieForm';
 import { createForm } from '../../../common/Form/CreateForm/CreateForm';
 
@@ -104,9 +105,6 @@ export const getMoviesCards = async ({ father, genre = '', state = '' }) => {
   //por cada pelicula creo una card
   //si le paso el genre entonces filtro solo las pelis con ese genre
   for (const movie of response) {
-    //!CHECK
-    console.log(genre);
-    console.log(state);
     const filterGenres =
       genre === 'Todos' ||
       genre === '' ||

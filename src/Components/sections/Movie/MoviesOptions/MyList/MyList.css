@@ -9,3 +9,9 @@
   background-color: var(--PC-colorSecondary);
   color: var(--PC-colorBGDark);
 }
+
+@media (max-width: 850px) {
+  .myListButt {
+    height: 30px;
+  }
+}
