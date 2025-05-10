@@ -1,8 +1,7 @@
 # POPCORNBCN - FRONTEND
 
 <div align="center">
-<img src="https://res.cloudinary.com/dr2vohk2z/image/upload/v1746569246/PopcornBCN/Preview/PopcornBCNPreviewDesktop_r0zfb2.png" alt="desktop preview" />
-<img src="https://res.cloudinary.com/dr2vohk2z/image/upload/v1746898901/PopcornBCN/Preview/PopcornBCNPreviewMobile2_m3mc8q.png" alt="mobile preview" />
+<img src="https://res.cloudinary.com/dr2vohk2z/image/upload/v1746899721/PopcornBCN/Preview/PopcornBCNPreviewTotal_rjurio.png" alt="desktop and mobile preview" />
 </div>
 
 ## Descripción
