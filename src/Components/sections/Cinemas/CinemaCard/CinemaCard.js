@@ -59,7 +59,7 @@ export const createCinemaCard = (cinema) => {
       const form = createForm({
         funcion: getCinemaForm,
         element: cinema,
-        title: 'Editar cinema'
+        title: 'Editar cine'
       });
       form.classList.add('cineForm');
       document.querySelector('main').append(form);
