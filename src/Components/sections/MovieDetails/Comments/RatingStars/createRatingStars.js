@@ -21,26 +21,33 @@ export const createRatingStars = () => {
 };
 
 //funcion para pintar el rating que tiene un comment especifico
-export const displayRatingStars = (comment) => {
-  //TUTORIAL: https://www.youtube.com/watch?v=fQIerHqB71w&t=590s
+//le paso movieDetail cuando es para pintar las estrellas en los detalles del movie
+export const displayRatingStars = (element, movieDetail) => {
   const divRating = document.createElement('div');
   divRating.classList.add('starsRatingComment');
 
-  //comment.stars = ? num
+  //comment.stars = ? num , movie.stars = ? num
   for (let i = 1; i <= 5; i++) {
     const starIconFull = document.createElement('img');
     //si i ya ha superado el numero de rating, pero no hemos llegado a 5
     //entonces pintamos la estrella vacia
     //si no, continuamos a pintar la estrella llena
-    if (i > comment.stars) {
-      starIconFull.src =
-        'https://res.cloudinary.com/dr2vohk2z/image/upload/v1742410562/PopcornBCN/starEmpty_g3b4gu.png';
-      starIconFull.alt = `rating: ${comment.stars}`;
+    if (i > element.stars) {
+      if (movieDetail) {
+        //estamos pintando la info del movie
+        starIconFull.src =
+          'https://res.cloudinary.com/dr2vohk2z/image/upload/c_scale,h_112,w_118/v1747115240/PopcornBCN/starwhite_qxbb68.png';
+      } else {
+        starIconFull.src =
+          'https://res.cloudinary.com/dr2vohk2z/image/upload/v1742410562/PopcornBCN/starEmpty_g3b4gu.png';
+      }
+
+      starIconFull.alt = `rating: ${element.stars}`;
       divRating.append(starIconFull);
     } else {
       starIconFull.src =
         'https://res.cloudinary.com/dr2vohk2z/image/upload/v1742410562/PopcornBCN/star_k1aayc.png';
-      starIconFull.alt = `rating: ${comment.stars}`;
+      starIconFull.alt = `rating: ${element.stars}`;
       divRating.append(starIconFull);
     }
   }

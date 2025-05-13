@@ -37,6 +37,9 @@ export const deleteComment = async ({ comment, movie }) => {
         //pesco de nuevo el movie actualizado, para que se pinte sin el comentario eliminado
         const movieUpdate = await getMovieById(movie._id);
         displayAllComments(divFather, movieUpdate);
+        //si quien ha comentado es el user, lo actualizo, para eliminarle el comment de la lista
+        const userUpdate = await getUserById(user._id);
+        localStorage.setItem('user', JSON.stringify(userUpdate));
       });
       divFather.append(confirmPopup);
     } else {

@@ -4,6 +4,7 @@ import { addListButton } from '../../../common/Button/AddListButton/AddListButto
 
 import { createButton } from '../../../common/Button/GenericButton/Button';
 import { displayScreenings } from '../../Screenings/Screenings';
+import { displayRatingStars } from '../Comments/RatingStars/createRatingStars';
 
 import { createPoster } from '../Poster/Poster';
 import { watchTrailer } from '../Trailer/Trailer';
@@ -56,7 +57,15 @@ export const displayInfoMovie = (movie) => {
   );
   const divCountry = getInfoMovie('País', movie.country);
   const originalLang = getInfoMovie('Idioma original', movie.originalLang);
-  const divStars = getInfoMovie('Estrellas', movie.stars);
+  const divStars = document.createElement('div');
+  const h4 = document.createElement('h4');
+  h4.innerText = 'Estrellas: ';
+
+  //pintamos stars
+  const movieDetail = true; //le paso movieDetail a displayRatingStars para pintar las estrellas en la info del movie
+  const stars = displayRatingStars(movie, movieDetail);
+  console.log(stars);
+  divStars.append(h4, stars);
 
   divInfoMovie.append(
     divDire,

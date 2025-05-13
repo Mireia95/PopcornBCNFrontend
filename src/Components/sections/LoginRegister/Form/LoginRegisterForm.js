@@ -52,7 +52,18 @@ export const LoginRegisterForm = (father, typeForm) => {
   }
 
   form.append(password, buttonSubmit);
-  father.append(h2, form);
+
+  //chequeo si el user ya está logueado
+  const user = JSON.parse(localStorage.getItem('user'));
+  if (typeForm !== 'Crear cuenta' && user) {
+    const h4 = document.createElement('h4');
+    h4.innerText = 'Hola user 👋 ya estás logueado.';
+    father.append(h2, h4);
+  } else {
+    father.append(h2, form);
+  }
+
+  //!----------------
 
   //creo div para cambiar de form Login/Crear cuenta
   const divChangeForm = document.createElement('div');

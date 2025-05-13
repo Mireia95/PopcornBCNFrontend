@@ -4,6 +4,10 @@
     padding: 15px;
   }
 
+  .commentContainer > .select {
+    font-size: 14px;
+  }
+
   .commentContainer > p {
     font-size: 14px;
   }
@@ -14,6 +18,7 @@
 
   .commentUser > img {
     width: 20px;
+    height: 20px;
   }
 
   .date {

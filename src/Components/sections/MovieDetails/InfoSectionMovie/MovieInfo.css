@@ -78,6 +78,12 @@
   font-size: 14px;
 }
 
+.infosMovie > div > .starsRatingComment {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
 .buttonsInfoMovie {
   flex-direction: column;
   gap: 20px;
