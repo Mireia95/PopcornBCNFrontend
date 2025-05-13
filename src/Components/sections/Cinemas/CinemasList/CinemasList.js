@@ -1,7 +1,7 @@
 import { getCinemas } from '../../../../Utils/routes/Cinemas/getCinemas';
 import { createCinemaCard } from '../CinemaCard/CinemaCard';
 import { createNewCine } from '../NewCinema/NewCinema';
-import './cinemasList.css';
+import './CinemasList.css';
 
 export const displayCinemas = async (section) => {
   //al hacer una peticion de cine estoy llamando de nuevo esta funcion para pintar los cines de nuevo. Para evitar que se pinten duplicados, si ya existen los borro para luego pintarlos otra vez actualizados
