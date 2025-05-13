@@ -71,16 +71,19 @@ En la parte más abajo el user puede ver y postear un comentario:
 ### Mi cuenta
 
 En la página de mi cuenta, el user logueado podrà modificar sus datos, ver sus comentarios publicados y poder eliminarlos si quisiera. Si el user no está logueado saldrá la sección de Login/Registrarse.
+
 <img src="https://res.cloudinary.com/dr2vohk2z/image/upload/v1747128443/PopcornBCN/Preview/MiCuentaFigma_e0mqzi.png" alt="mi cuenta" />
 
 ### Cines
 
 En la página de cines está la lista de todos los cines de Barcelona. El link "Ir a la web" redirige a la página oficial de cada cine.
+
 <img src="https://res.cloudinary.com/dr2vohk2z/image/upload/v1747130858/PopcornBCN/Preview/cines_i6wktt.jpg" alt="cines" />
 
 ### Contáctanos
 
 En la página de soporte el user puede enviar un mail pulsando el botón proporcionado, por si hubiera cualquier tipo de problema, comentario que se quiere aportar, etc etc.
+
 <img src="https://res.cloudinary.com/dr2vohk2z/image/upload/v1747130920/PopcornBCN/Preview/contact_cu56ik.jpg" alt="soporte" />
 
 ## Admin
