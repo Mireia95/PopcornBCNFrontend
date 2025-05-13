@@ -1,6 +1,6 @@
 import { cleanElement } from '../../Utils/functions/cleanElement';
 import { createSection } from '../../Utils/functions/createSection';
-import './support.css';
+import './Support.css';
 import './SupportResponsive.css';
 
 export const printPageSupport = () => {
