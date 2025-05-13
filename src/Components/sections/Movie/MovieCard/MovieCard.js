@@ -94,6 +94,7 @@ export const createMovieCard = ({ father, movie }) => {
 //obtenemos las cards
 export const getMoviesCards = async ({ father, genre = '', state = '' }) => {
   const response = await getMovies();
+  console.log(response);
 
   //si eres admin pinto la card para añadir el movie
   const user = JSON.parse(localStorage.getItem('user')); //recupero user logueado
