@@ -1,6 +1,6 @@
 //const url = 'http://localhost:3000/api/v1'; //cambiar una vez desplegado el backend
 
-const url = 'https://popcornbcn-backend.vercel.app/api/v1';
+const url = 'https://popcorn-bcn-backend.vercel.app/api/v1';
 
 export const API = async ({
   endpoint,
