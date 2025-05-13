@@ -1,4 +1,4 @@
-import './addListButton.css';
+import './AddListButton.css';
 import '../../../Styles/Anims/Anims.css';
 
 import { buttAddList } from '../../../../Utils/Data/ButtonAddListMovie';

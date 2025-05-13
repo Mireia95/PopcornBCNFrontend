@@ -2,7 +2,6 @@ import { deleteCinema } from '../../../../Utils/routes/Cinemas/deleteCinema';
 import { deleteComment } from '../../../../Utils/routes/Comments/deleteComment';
 import { deleteMovie } from '../../../../Utils/routes/Movies/deleteMovie';
 import { deleteScreening } from '../../../../Utils/routes/Screenings/deleteScreening';
-//import { deleteUser } from '../../../../Utils/routes/User/deleteUser';
 import { createButton } from '../../Button/GenericButton/Button';
 
 import './ConfirmDeletePopup.css';
