@@ -61,9 +61,11 @@ Al hacer click en una card, vamos a la página de detalles, y podremos acceder a
 <img src="https://res.cloudinary.com/dr2vohk2z/image/upload/v1747125219/PopcornBCN/Preview/movieDetailsfigma_ahpgyt.png" alt="movies details" />
 
 Al hacer click en "Sesiones" se pueden ver las sesiones existentes por cada película, permitiendo al user de ir a la página del cine que le interesa:
+
 <img src="https://res.cloudinary.com/dr2vohk2z/image/upload/v1747126555/PopcornBCN/Preview/screeningFigma_tgcngo.png" alt="screenings" />
 
 En la parte más abajo el user puede ver y postear un comentario:
+
 <img src="https://res.cloudinary.com/dr2vohk2z/image/upload/v1747120871/PopcornBCN/Preview/commentsDetailMovie_d4iuej.jpg" alt="post comment" />
 
 ### Mi cuenta
@@ -88,11 +90,13 @@ El user con role "admin" tiene una vista especial de la web, para agregar, edita
 ### Página de admin
 
 Esta sección aparece solo si el user logueado es el Admin. Tiene control y visibilidad sobre los datos de cualquier user logueado, permitiendo la ayuda de cualquier user que tiene problemas en acceder a su cuenta.
+
 <img src="https://res.cloudinary.com/dr2vohk2z/image/upload/v1747132086/PopcornBCN/Preview/adminpageFigma_zmvauk.png" alt="movie page admin" />
 
 ### Películas
 
 El admin puede agregar películas, o editar las existentes, a través de formularios que hacen peticiones al backend.
+
 <img src="https://res.cloudinary.com/dr2vohk2z/image/upload/v1747131454/PopcornBCN/Preview/adminmovie_hiw9pa.jpg" alt="movie page admin" />
 
 <img src="https://res.cloudinary.com/dr2vohk2z/image/upload/v1747131456/PopcornBCN/Preview/formMovie_xxucbg.png" alt="forms admin" />
@@ -100,16 +104,19 @@ El admin puede agregar películas, o editar las existentes, a través de formula
 ### Comentarios de películas
 
 El admin tiene control sobre los comentarios posteados, y puede eliminar aquellos que considere necesario.
+
 <img src="https://res.cloudinary.com/dr2vohk2z/image/upload/v1747132327/PopcornBCN/Preview/admincomments_prpazu.png" alt="comments delete admin" />
 
 ### Sesiones de películas
 
 Lo mismo puede hacer con las sesiones de cada película, añadiendo una nueva o editando las que ya existen.
+
 <img src="https://res.cloudinary.com/dr2vohk2z/image/upload/v1747132538/PopcornBCN/Preview/sesionadmin_xmwq1y.png" alt="sesiones pelis admin" />
 
 ### Cines
 
 El admin puede agregar cines, o editar los existentes, a través de formularios que hacen peticiones al backend.
+
 <img src="https://res.cloudinary.com/dr2vohk2z/image/upload/v1747131816/PopcornBCN/Preview/admincine_hqh2fa.png" alt="cine page admin" />
 
 ### Contact
