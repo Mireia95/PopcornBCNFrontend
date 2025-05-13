@@ -21,7 +21,11 @@ link http://popcornbcn......
 ## Requisitos
 
 Proyecto creado con Vite. Al abrir el proyecto instalar paquetes de NPM :
+
 `npm install`
+
+<br>
+<br>
 
 ## Pagina web
 
