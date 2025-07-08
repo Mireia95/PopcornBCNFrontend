@@ -21,7 +21,6 @@ export const deleteComment = async ({ comment, movie }) => {
   const fatherPopup = document.querySelector('.confirmDelete');
 
   if (res.comment) {
-    console.log('eliminado');
     //elimino el popup de "estar seguro de que quieres eliminar?"
     document.querySelector('.confirmDelete')?.remove();
 

@@ -5,27 +5,25 @@ import './LoginRegisterFormResponsive.css';
 import { doRegister } from '../Register/Register';
 import { doLogin } from '../Login/Login';
 import { createButton } from '../../../common/Button/GenericButton/Button';
+import { createInputPassword } from '../../../common/Form/FieldForm/InputPassword/createInputPassword';
 
 export const LoginRegisterForm = (father, typeForm) => {
   father.innerHTML = ''; //limpio el elemento padre
-  /*   en esa funcion le pasamos como parametro:
-  -elemento padre
-  -que tipo de form estamos creando (Login o Crear cuenta) */
+  //le pasamos como parametro typeForm para saber si crear Login o Resiter
 
   const h2 = document.createElement('h2');
   h2.innerText = typeForm; //le paso Login o Crear cuenta
 
   const form = document.createElement('form');
   form.classList.add('flexCenter', 'loginRegister');
+
   const username = createinputForm({
     labelText: 'Username',
     placeholder: 'Username'
-  }); //creo label/input username
-  const password = createinputForm({
-    labelText: 'Contraseña',
-    placeholder: '********',
-    type: 'password'
-  }); //creo label/input password
+  });
+
+  const password = createInputPassword();
+
   const buttonSubmit = createButton({
     texto: typeForm,
     type: 'submit',
@@ -62,8 +60,6 @@ export const LoginRegisterForm = (father, typeForm) => {
   } else {
     father.append(h2, form);
   }
-
-  //!----------------
 
   //creo div para cambiar de form Login/Crear cuenta
   const divChangeForm = document.createElement('div');

@@ -15,7 +15,6 @@ export const deleteCinema = async (cinema) => {
   const fatherPopup = document.querySelector('.confirmDelete');
 
   if (res.deletedCinema) {
-    console.log('eliminado');
     document.querySelector('.confirmDelete')?.remove();
     const cinemaSection = document.querySelector('#cinemas');
     document.querySelector('.cineForm')?.remove(); //elimino el form

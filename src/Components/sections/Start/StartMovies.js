@@ -10,7 +10,7 @@ export const createStartMovies = (section) => {
   const moviesMenu = createButton({
     texto: 'Películas',
     clase: 'menuStart',
-    url: 'https://res.cloudinary.com/dr2vohk2z/image/upload/v1741719326/PopcornBCN/pelicula_il8obm.png'
+    url: 'https://res.cloudinary.com/dr2vohk2z/image/upload/v1751898651/PopcornBCN/rollo-de-pelicula_bhjbxr.png'
   });
 
   moviesMenu.classList.add('flexCenter');

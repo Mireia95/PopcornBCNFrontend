@@ -15,7 +15,7 @@ export const doLogin = async ({ e, userLogin, password }) => {
 */
 
   if (e) {
-    e.preventDefault(); //evito que se recargue la página
+    e.preventDefault();
   }
 
   const body = {};
@@ -41,7 +41,7 @@ export const doLogin = async ({ e, userLogin, password }) => {
     const form =
       document.querySelector('#LoginRegisterStart > form') ||
       document.querySelector('#user > form');
-    displayErrorRequest({ father: form, error: res }); //hay que pasarle el father, para saber donde pintarlo
+    displayErrorRequest({ father: form, error: res });
   } else {
     localStorage.setItem('user', JSON.stringify(res.user));
     localStorage.setItem('token', JSON.stringify(res.token));

@@ -16,7 +16,7 @@ export const menuHeader = [
   },
   {
     name: 'Cines',
-    icon: 'https://res.cloudinary.com/dr2vohk2z/image/upload/v1736168336/PopcornBCN/iconCinemaMenu_sdu4ck.png',
+    icon: 'https://res.cloudinary.com/dr2vohk2z/image/upload/v1751900911/PopcornBCN/cineSitting_cixspd.png',
     page: printPageCinemas,
     path: '/cinemas',
     role: 'user',
