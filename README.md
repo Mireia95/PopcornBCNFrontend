@@ -10,7 +10,7 @@ PopcornBCN es una página que permite ver la lista de películas disponibles en 
 
 ## Project Link:
 
-https://popcornbcn-frontend.vercel.app/
+https://popcorn-bcn-frontend.vercel.app/
 
 ## Desarrollado con
 
