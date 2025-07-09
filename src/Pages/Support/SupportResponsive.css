@@ -1,4 +1,7 @@
 @media (max-width: 800px) {
+  #support {
+    height: auto;
+  }
   .soporte {
     left: 50%;
   }

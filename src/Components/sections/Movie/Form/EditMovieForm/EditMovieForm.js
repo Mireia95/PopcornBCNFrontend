@@ -7,6 +7,7 @@ import { createinputForm } from '../../../../common/Form/FieldForm/InputForm/cre
 import { createInputFileForm } from '../../../../common/Form/FieldForm/InputFileForm/CreateInputFileForm';
 import { createSelectOptions } from '../../../../common/Form/FieldForm/SelectOptions/createSelectOptions';
 import { createFieldSetGenre } from '../../../../common/Form/FieldForm/FieldSetGenre/createFieldsetGenre';
+import { trimValueForm } from '../../../../../Utils/functions/formTrimValue';
 
 export const editMovieForm = async ({ form, element }) => {
   console.log(element);
@@ -114,6 +115,7 @@ export const editMovieForm = async ({ form, element }) => {
   //creo evento submit del form para enviar los datos
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
+    trimValueForm(form);
     await editMovie({ e: e, movie: element._id });
   });
 

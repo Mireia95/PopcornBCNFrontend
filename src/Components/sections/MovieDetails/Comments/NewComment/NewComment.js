@@ -11,6 +11,7 @@ import { createRatingStars } from '../RatingStars/createRatingStars';
 import { displayAllComments } from '../Comments/Comments';
 
 import './NewComment.css';
+import { trimValueForm } from '../../../../../Utils/functions/formTrimValue';
 
 export const addNewComment = async ({ father, movie }) => {
   const form = document.createElement('form');
@@ -49,6 +50,7 @@ export const addNewComment = async ({ father, movie }) => {
 
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
+    trimValueForm(form);
     cleanElement({ element: '.contentSimAndComm', logo: false });
     const user = JSON.parse(localStorage.getItem('user'));
 

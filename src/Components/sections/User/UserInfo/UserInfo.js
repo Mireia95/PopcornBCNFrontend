@@ -15,7 +15,6 @@ export const getUserInfo = (user, section) => {
   const divImgUser = document.createElement('div');
   divImgUser.classList.add('imgUser');
   const imgUser = addImage('imagen user', user.image || defaultImages.user);
-  //imgUser.classList.add('imgUser');
 
   const divInfo = document.createElement('div');
   divInfo.classList.add('infoUser', 'flexCenter');

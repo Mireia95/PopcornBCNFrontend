@@ -64,7 +64,6 @@ export const displayInfoMovie = (movie) => {
   //pintamos stars
   const movieDetail = true; //le paso movieDetail a displayRatingStars para pintar las estrellas en la info del movie
   const stars = displayRatingStars(movie, movieDetail);
-  console.log(stars);
   divStars.append(h4, stars);
 
   divInfoMovie.append(

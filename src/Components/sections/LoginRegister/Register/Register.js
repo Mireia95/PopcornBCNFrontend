@@ -21,7 +21,7 @@ export const doRegister = async (e) => {
     body,
     method: 'POST'
   });
-  console.log(res);
+
   if (typeof res === 'string') {
     //quiere decir que hay un error. Si no devuelve el objeto user.
     //pinto el error, chequeando en que form estamos, para saber donde pintar el error

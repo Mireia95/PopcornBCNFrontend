@@ -21,3 +21,25 @@
   margin-top: 20px;
   margin-right: 0;
 }
+
+.emailUser {
+  align-items: flex-start !important;
+  flex-direction: column;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.emailUser > h4 {
+  font-weight: 400;
+}
+
+.emailUser > p {
+  padding: var(--PC-padding-xs);
+  border-radius: var(--PC-border-radius-input);
+  border: 1px solid var(--PC-colorPrimary);
+  background-color: var(--PC-colorTextarea);
+  cursor: not-allowed;
+  width: 100%;
+  color: var(--PC-colorBGDark);
+  font-size: 14px;
+}

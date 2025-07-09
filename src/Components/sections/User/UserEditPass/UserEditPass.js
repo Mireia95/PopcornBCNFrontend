@@ -1,3 +1,4 @@
+import { trimValueForm } from '../../../../Utils/functions/formTrimValue';
 import { editUser } from '../../../../Utils/routes/User/editUser';
 import { createCancButton } from '../../../common/Button/CancelButton/CancelButton';
 //import { createButton } from '../../../common/Button/GenericButton/Button';
@@ -51,6 +52,7 @@ export const displayUserEditPass = ({ father }) => {
   //submis form
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
+    trimValueForm(form);
     const { password, newPassword } = e.target;
     const body = {
       password: password.value,

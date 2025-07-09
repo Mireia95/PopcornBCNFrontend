@@ -1,14 +1,18 @@
 import { createBackButton } from '../../../common/Button/BackButton/BackButton';
+import { createCancButton } from '../../../common/Button/CancelButton/CancelButton';
 import { createDeleteButt } from '../../../common/Button/DeleteButton/DeleteButton';
+import { createEditButt } from '../../../common/Button/EditButton/EditButton';
 import { createButton } from '../../../common/Button/GenericButton/Button';
+import { createSaveButton } from '../../../common/Button/SaveButton/SaveButton';
 import { createForm } from '../../../common/Form/CreateForm/CreateForm';
 import { editUserForm } from '../Form/EditUserForm/EditUserForm';
+import { displayEditUserFormButt } from '../Form/EditUserFormButt/EditUserFormButt';
 import { displayUserEditPass } from '../UserEditPass/UserEditPass';
 import { displayUserOptions } from '../UserOptions/UserOptions';
 import './UserData.css';
 import './UserDataResponsive.css';
 
-export const displayUserData = (user) => {
+export const displayUserData = async (user) => {
   const userPage = document.getElementById('user');
   const divOptionContent = document.querySelector('.divOptionsContent');
   divOptionContent.innerHTML = '';
@@ -17,14 +21,17 @@ export const displayUserData = (user) => {
   divOptionContent.append(divUserData);
 
   //IMPO: no pasar el user como prop, para que lo coja del localStorage en editUser.js
-  const editForm = createForm({
+  const editForm = await createForm({
     funcion: editUserForm,
     element: { user, page: 'user' },
-    title: 'Mis datos'
+    title: 'Mis datos',
+    submitButt: false
   });
-  editForm.classList.remove('form');
-  editForm.classList.add('userForm');
+  editForm.classList.replace('form', 'userForm');
   divUserData.append(editForm);
+
+  //botones para el submit del form
+  displayEditUserFormButt();
 
   //editar contraseña
   const divEditPassw = document.createElement('div');

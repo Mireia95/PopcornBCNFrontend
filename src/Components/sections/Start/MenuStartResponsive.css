@@ -1,8 +1,15 @@
 @media (max-width: 920px) {
+  #menuStart {
+    height: auto;
+  }
+  .divMenu {
+    justify-content: flex-start !important;
+    height: 500px;
+  }
   .menuStart {
     gap: 10px;
     width: 200px;
-    height: 300px;
+    height: 250px;
     margin: 30px;
     margin-top: 0px;
     font-size: 20px;
@@ -25,11 +32,24 @@
     font-size: 14px;
     font-weight: 500;
     gap: 20px;
-    padding: 0px 20px;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-height: 700px) {
+  .menuStart {
+    margin: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    border: 1px solid white;
+    font-weight: 500;
   }
 }
 
 @media (max-width: 450px) {
+  .sectionsMenu {
+    flex-direction: column;
+  }
   /** TITULO */
   .start > div > h1 {
     font-size: 35px;
@@ -87,14 +107,9 @@
   }
 }
 
-@media (max-height: 800px) {
+@media (min-width: 900px) and (max-height: 800px) {
   .divMenu > h4 {
     font-weight: 600;
     font-size: 23px;
-  }
-  .menuStart {
-    width: 300px;
-    height: 350px;
-    margin-top: 80px;
   }
 }

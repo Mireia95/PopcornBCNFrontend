@@ -8,6 +8,7 @@ import { editScreening } from '../../../../Utils/routes/Screenings/editScreening
 
 import './ScreeningForm.css';
 import { postScreening } from '../../../../Utils/routes/Screenings/postScreening';
+import { trimValueForm } from '../../../../Utils/functions/formTrimValue';
 
 /* esta funcion sirve para peticiones de post y put del screening. 
 en el prop element le paso el movie, el screening (por si hay que editarlo) y la action
@@ -99,6 +100,7 @@ export const getScreeningForm = async ({
   //creo evento submit del form para enviar los datos
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
+    trimValueForm(form);
 
     await handleSubmit(e, action, screening, movie);
   });

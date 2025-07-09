@@ -14,9 +14,4 @@ export const userOptions = [
     icon: 'https://res.cloudinary.com/dr2vohk2z/image/upload/v1740569732/PopcornBCN/comments_lklffm.png',
     page: displayUserComments
   }
-  /*  {
-    name: 'Lista películas',
-    icon: 'https://res.cloudinary.com/dr2vohk2z/image/upload/v1742126876/PopcornBCN/myListUser_zsic9q.png',
-    page: displayUserList
-  } */
 ];

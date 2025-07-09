@@ -1,11 +1,12 @@
 import { createAdminOption } from '../../Components/sections/Admin/AdminOption/AdminOption';
 import { displayUsers } from '../../Components/sections/Admin/AdminUsers/DisplayUsers';
-import { cleanElement } from '../../Utils/functions/cleanElement';
+import { checkUserAndCleanEle } from '../../Utils/functions/checkUserAndCleanEle';
 import { createSection } from '../../Utils/functions/createSection';
 import './Admin.css';
 
 export const printPageAdmin = () => {
-  cleanElement({ element: 'main' });
+  //limpio main y chequeo si user está logueado
+  checkUserAndCleanEle({ element: 'main' });
   const section = createSection('main', 'admin', 'page');
   section.innerHTML = '<h2> ADMIN </h2>';
   section.classList.add('flexCenter');

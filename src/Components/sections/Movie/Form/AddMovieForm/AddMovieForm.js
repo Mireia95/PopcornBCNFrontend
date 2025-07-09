@@ -1,3 +1,4 @@
+import { trimValueForm } from '../../../../../Utils/functions/formTrimValue';
 import { postMovie } from '../../../../../Utils/routes/Movies/postMovie';
 import { createFieldSetGenre } from '../../../../common/Form/FieldForm/FieldSetGenre/createFieldsetGenre';
 
@@ -104,6 +105,7 @@ export const addMovieForm = async ({ form }) => {
 
   //creo evento submit del form para enviar los datos
   form.addEventListener('submit', async (e) => {
+    trimValueForm(form);
     e.preventDefault();
     await postMovie(e);
   });

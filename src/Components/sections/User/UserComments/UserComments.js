@@ -16,9 +16,10 @@ export const displayUserComments = (user) => {
   title.innerText = 'Mis comentarios';
   divComments.append(title);
 
-  if (user.comments) {
+  console.log(user.comments);
+
+  if (user.comments.length > 0) {
     for (const comment of user.comments) {
-      console.log(comment);
       const divComment = document.createElement('div');
       divComment.classList.add('divComment');
       //añado titulo y poster
@@ -45,6 +46,12 @@ export const displayUserComments = (user) => {
       divComment.append(titleMovie, divCommCard);
       divComments.append(divComment);
     }
+  } else {
+    const noComments = document.createElement('p');
+    noComments.innerText =
+      'Ups... Todavía no hay comentarios. Echa un vistazo a las películas y cuentanos que opinas!';
+    noComments.className = 'noComments';
+    divComments.append(noComments);
   }
 
   divOptionContent.append(divComments);

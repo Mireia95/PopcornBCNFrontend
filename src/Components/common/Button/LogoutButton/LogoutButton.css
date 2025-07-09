@@ -4,3 +4,21 @@
   font-weight: 600;
   border: 1px solid var(--PC-borderLight);
 }
+
+main > .logoutButt {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+
+@media (max-width: 560px) {
+  main > .logoutButt {
+    top: 8px;
+    right: 15px;
+    padding: 5px 10px;
+  }
+
+  main > .logoutButt > span {
+    display: none;
+  }
+}

@@ -9,7 +9,8 @@ export const createinputForm = ({
   required = true,
   id,
   name,
-  checked = false
+  checked = false,
+  readonly = false
 }) => {
   const div = document.createElement('div');
   div.classList.add('fieldForm');
@@ -20,6 +21,9 @@ export const createinputForm = ({
   if (placeholder) {
     input.placeholder = placeholder;
   }
+
+  input.readOnly = readonly;
+  input.minLength = 3;
 
   input.type = type;
   if (type === 'password') {

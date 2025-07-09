@@ -30,10 +30,6 @@
 }
 
 @media (max-width: 450px) {
-  .logo {
-    margin: var(--PC-margin-xs);
-  }
-
   .logo > img {
     width: 20px;
   }

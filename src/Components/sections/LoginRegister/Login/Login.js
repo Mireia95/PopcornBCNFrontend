@@ -35,6 +35,8 @@ export const doLogin = async ({ e, userLogin, password }) => {
     method: 'POST'
   });
 
+  document.querySelector('.loading')?.remove();
+
   if (!res.user) {
     //si no ha ido bien el login enseña el error
     //chequeo en que form estamos para saber donde pintar el error

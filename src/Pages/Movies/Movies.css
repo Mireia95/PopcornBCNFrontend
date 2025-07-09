@@ -2,6 +2,7 @@
   position: relative;
   max-width: var(--PC-maxwidth-page);
   min-height: 90svh;
+  margin-bottom: var(--PC-margin-m);
 }
 
 #movies > h2 {

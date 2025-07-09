@@ -1,13 +1,15 @@
 import { loading } from '../../Components/common/Loading/Loading';
 import { getMoviesCards } from '../../Components/sections/Movie/MovieCard/MovieCard';
 import { createOptions } from '../../Components/sections/Movie/MoviesOptions/Options/MovieOptions';
+import { checkUserAndCleanEle } from '../../Utils/functions/checkUserAndCleanEle';
 
-import { cleanElement } from '../../Utils/functions/cleanElement';
 import { createSection } from '../../Utils/functions/createSection';
 import './Movies.css';
 
-export const printPageMovies = () => {
-  cleanElement({ element: 'main' });
+export const printPageMovies = async () => {
+  //limpio main y chequeo si user está logueado
+  checkUserAndCleanEle({ element: 'main' });
+
   const section = createSection('main', 'movies', 'page');
   section.innerHTML = '<h2> PELÍCULAS </h2>';
 

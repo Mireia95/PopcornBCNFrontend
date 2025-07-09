@@ -15,7 +15,9 @@ export const createButton = ({ texto, clase, type = 'button', url }) => {
     button.prepend(icon);
   }
   if (texto) {
-    button.append(texto);
+    const span = document.createElement('span');
+    span.innerText = texto;
+    button.append(span);
   }
   return button;
 };

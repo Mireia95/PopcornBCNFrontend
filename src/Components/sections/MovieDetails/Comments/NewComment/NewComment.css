@@ -25,3 +25,7 @@ form.commentContainer {
 .divSubmitButt > .submitButt {
   border: 1px solid var(--PC-colorBGDark);
 }
+
+.contentSimAndComm > .loading {
+  left: 50%;
+}

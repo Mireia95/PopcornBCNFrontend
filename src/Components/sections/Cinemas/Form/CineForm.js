@@ -1,15 +1,9 @@
+import { trimValueForm } from '../../../../Utils/functions/formTrimValue';
 import { editCinema } from '../../../../Utils/routes/Cinemas/editCinema';
 import { postCinema } from '../../../../Utils/routes/Cinemas/postCinema';
 
 import { createinputForm } from '../../../common/Form/FieldForm/InputForm/createInputForm';
 import './CineForm.css';
-
-/* cine necesita esto:
- name: { type: String, required: true },
-    address: { type: String, required: true },
-    link: { type: String, required: true },
-    specialDay: { type: String }
-*/
 
 export const getCinemaForm = async ({ form, element }) => {
   //renombro datos de element, para comodidad
@@ -48,7 +42,9 @@ export const getCinemaForm = async ({ form, element }) => {
   //creo evento submit del form para enviar los datos
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
-    console.log(e.target);
+
+    trimValueForm(form);
+
     const { name, address, link, specialDay } = e.target;
 
     const body = {

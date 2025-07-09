@@ -50,3 +50,14 @@
   margin: 0;
   width: 80%;
 }
+
+.noComments {
+  color: var(--PC-colorLight);
+  text-align: center;
+  margin: auto;
+  margin-top: var(--PC-margin-l);
+  border: 1px solid var(--PC-colorLight);
+  padding: 20px;
+  border-radius: var(--PC-border-radius);
+  max-width: 800px;
+}

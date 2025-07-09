@@ -8,7 +8,7 @@ import './User.css';
 
 export const printPageUser = () => {
   cleanElement({ element: 'main' });
-  //chequeo que esté visible el header (ya que si noestas logueado vienes dirigido aqui tambien desde infoMovie que NO tiene el ehader visible)
+  //chequeo que esté visible el header (ya que si no estas logueado vienes dirigido aqui tambien desde infoMovie que NO tiene el header visible)
   document.querySelector('header')?.classList.remove('displayNone');
 
   const section = createSection('main', 'user', 'page');

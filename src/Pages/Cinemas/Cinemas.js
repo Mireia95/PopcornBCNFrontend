@@ -1,13 +1,19 @@
 import { loading } from '../../Components/common/Loading/Loading';
-import { cleanElement } from '../../Utils/functions/cleanElement';
 import { createSection } from '../../Utils/functions/createSection';
 import './Cinemas.css';
 import { displayCinemas } from '../../Components/sections/Cinemas/CinemasList/CinemasList';
+import { checkUserAndCleanEle } from '../../Utils/functions/checkUserAndCleanEle';
 
 export const printPageCinemas = () => {
-  cleanElement({ element: 'main' });
+  //limpio main y chequeo si user está logueado
+  checkUserAndCleanEle({ element: 'main' });
   const section = createSection('main', 'cinemas', 'page');
   section.innerHTML = '<h2> CINES </h2>';
-  loading(section);
+
+  const cinemasList = document.createElement('div');
+  cinemasList.classList.add('cinemaList', 'flexCenter');
+
+  section.append(cinemasList);
+  loading(cinemasList);
   displayCinemas(section);
 };

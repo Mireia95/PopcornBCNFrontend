@@ -6,6 +6,8 @@ import { doRegister } from '../Register/Register';
 import { doLogin } from '../Login/Login';
 import { createButton } from '../../../common/Button/GenericButton/Button';
 import { createInputPassword } from '../../../common/Form/FieldForm/InputPassword/createInputPassword';
+import { loading } from '../../../common/Loading/Loading';
+import { trimValueForm } from '../../../../Utils/functions/formTrimValue';
 
 export const LoginRegisterForm = (father, typeForm) => {
   father.innerHTML = ''; //limpio el elemento padre
@@ -83,6 +85,8 @@ export const LoginRegisterForm = (father, typeForm) => {
 
   //evento para el form
   form.addEventListener('submit', (e) => {
+    trimValueForm(form);
+    loading(form);
     if (typeForm === 'Crear cuenta') {
       doRegister(e);
     } else {

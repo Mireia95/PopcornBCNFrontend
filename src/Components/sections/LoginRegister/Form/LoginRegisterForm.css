@@ -10,6 +10,10 @@
   margin-bottom: 20px;
 }
 
+.loginRegister {
+  position: relative;
+}
+
 .loginRegister > .fieldForm > input {
   background-color: var(--PC-colorMidDark);
   color: var(--PC-colorLight);
